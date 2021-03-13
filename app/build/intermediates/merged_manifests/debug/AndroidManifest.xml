@@ -37,6 +37,7 @@
         <activity android:name="com.example.home_to_home.CreateAccount" />
         <activity android:name="com.example.home_to_home.SetLocation" />
         <activity android:name="com.example.home_to_home.MainActivity" />
+        <activity android:name="com.example.home_to_home.additem" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

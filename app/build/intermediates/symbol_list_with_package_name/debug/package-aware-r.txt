@@ -1535,6 +1535,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id checkBox
 id checkbox
 id checked
 id chip
