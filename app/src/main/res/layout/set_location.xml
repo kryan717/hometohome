@@ -94,6 +94,7 @@
         android:minWidth="266dp"
         android:minHeight="49dp"
         android:text="@string/set_location"
+        android:onClick="setLocationBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

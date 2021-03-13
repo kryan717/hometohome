@@ -8,53 +8,24 @@
     android:layout_height="match_parent" >
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
-    <ImageView
-            android:src="@drawable/burger"
-            android:scaleType="centerCrop"
-            android:layout_height="wrap_content"
+        <ImageView
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger"
             tools:ignore="MissingConstraints" />
     </FrameLayout>
 
-
-
-    <EditText
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Full Name"
-        android:inputType="textPersonName"
-        android:minWidth="266dp"
-        android:minHeight="49dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
-
-    <EditText
-        android:id="@+id/contact_number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Contact Number"
-        android:inputType="phone"
-        android:minWidth="266dp"
-        android:minHeight="49dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
@@ -64,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contact_number"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout"
         app:layout_constraintVertical_bias="0.086" />
 
     <EditText

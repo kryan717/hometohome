@@ -15,4 +15,9 @@
     <string name="country">Country</string>
     <string name="state">State</string>
     <string name="city">City</string>
+    <string name="full_name">Full Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
 </resources>

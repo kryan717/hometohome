@@ -26,8 +26,8 @@ public class SetLocation extends AppCompatActivity {
 
         city = (EditText) findViewById(R.id.city);
         state = (EditText) findViewById(R.id.state);
-        zipcode = (EditText) findViewById(R.id.country);
-        country = (EditText) findViewById(R.id.zip);
+        zipcode = (EditText) findViewById(R.id.zip);
+        country = (EditText) findViewById(R.id.country);
 
         mAuth = FirebaseAuth.getInstance();
 
