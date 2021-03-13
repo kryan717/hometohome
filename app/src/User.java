@@ -4,35 +4,32 @@ import java.util.List;
 
 public class User  {
     private String username;
-    private String password;
+    private String password; //we can't just store the password like this
     private String firstname;
     private String lastname;
     private String phonenumber;
     private int zipcode;
+    private int uid;
+
     private List<Item> owneditems;
     private List<Item> boughtitems;
-    private List<Item> proposedtradingitems;
 
 
-    public User(String user,String pass,String first, String last,String phone,int zipcode){
+
+    public User(String user, String pass, String first, String last, String phone, int zipcode, int uid){
         username = user;
         password = pass;
         firstname = first;
         lastname = last;
         phonenumber = phone;
+        uid = uid;
         this.zipcode = zipcode;
         owneditems = new ArrayList<Item>();
-      boughtitems = new ArrayList<Item>();
-        proposedtradingitems = new ArrayList<Item>();
-    }
-    public User(){
-        this.username="Guest";
-        this.password = " ";
-        this.firstname=" ";
-        this.lastname=" ";
-        this.phonenumber= "1-000-000-0000";
+        boughtitems = new ArrayList<Item>();
 
     }
+    public User(){ }
+
     public String getFirstname() {
         return firstname;
     }
@@ -53,26 +50,22 @@ public class User  {
         else if(A=="Bought"){
             items = boughtitems;
         }
-        else if(A=="Trading"){
-            items = proposedtradingitems;
-        }
         return items;
     }
 
 
     public void additem(Item A,String B){
-          if(B=="Owned") {
-              owneditems.add(A);
-          }
-          else if(B=="Bought"){
-              boughtitems.add(A);
-          }
-          else if(B=="Trading"){
-              proposedtradingitems.add(A);
-          }
+        if(B=="Owned") {
+            owneditems.add(A);
+        }
+        else if(B=="Bought"){
+            boughtitems.add(A);
+        }
     }
-    public void removeItem(Item A){
-        owneditems.remove(A);
+    public void removeItem(Item A,String B){
+        if(B=="Owned") {
+            owneditems.remove(A);
+        }
     }
 
 
