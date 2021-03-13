@@ -36,3 +36,5 @@ local.properties
 .Trashes
 ehthumbs.db
 Thumbs.db
+.idea/markdown-navigator.xml
+.idea/workspace.xml
