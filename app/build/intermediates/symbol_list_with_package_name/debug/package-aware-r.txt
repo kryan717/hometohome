@@ -1516,6 +1516,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addItem
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1590,6 +1591,7 @@ id fixed
 id forever
 id fragment_container_view_tag
 id frameLayout
+id galleryButton
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1626,6 +1628,7 @@ id listMode
 id listView
 id list_item
 id listingsReturn
+id listingsReturn2
 id listingsTest
 id loc_btn
 id loc_title
@@ -1717,6 +1720,8 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id setDesc
+id setItem
 id shortcut
 id showCustom
 id showHome
@@ -1854,10 +1859,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_additem
 layout activity_details
 layout activity_listings
 layout activity_main
 layout activity_testqueued
+layout activity_trade_interface
 layout create_account
 layout custom_dialog
 layout design_bottom_navigation_item
