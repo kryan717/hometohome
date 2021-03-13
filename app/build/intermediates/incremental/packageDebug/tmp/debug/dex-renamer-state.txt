@@ -1,4 +1,4 @@
-#Sat Mar 13 01:58:11 EST 2021
-base.0=/Users/kyleryan/hometohome/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sat Mar 13 11:03:45 PST 2021
+base.0=D\:\\Users\\AndroidStudioProjects\\Home to Home Day 2\\hometohome\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
