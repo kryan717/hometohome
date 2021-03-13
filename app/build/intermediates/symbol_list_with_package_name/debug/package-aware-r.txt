@@ -1545,7 +1545,6 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
-id contact_number
 id container
 id content
 id contentPanel
@@ -1590,6 +1589,7 @@ id fitToContents
 id fixed
 id forever
 id fragment_container_view_tag
+id frameLayout
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1661,7 +1661,6 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
-id name
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_header_container

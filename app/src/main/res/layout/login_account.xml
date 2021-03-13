@@ -5,7 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    tools:context=".LoginAccount">
+
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -17,7 +19,8 @@
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
             android:src="@drawable/burger"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            android:contentDescription="TODO" />
     </FrameLayout>
 
 
@@ -58,6 +61,7 @@
         android:id="@+id/login_btn"
         android:layout_width="266dp"
         android:layout_height="55dp"
+        android:onClick="onClickLogin"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,6 +74,7 @@
         android:id="@+id/create_acc_btn"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
+        android:onClick="onClickCreateAccount"
         android:text="Create Account"
         app:backgroundTint="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="parent"
