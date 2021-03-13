@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="SetLocation">
+    tools:context=".SetLocation">
 
     <TextView
         android:id="@+id/loc_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Set your location"
+        android:text="@string/set_your_location"
         android:textColor="#101010"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="City"
+        android:hint="@string/city"
         android:inputType="textPersonName"
         android:minWidth="266dp"
         android:minHeight="49dp"
@@ -33,14 +33,15 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loc_title"
-        app:layout_constraintVertical_bias="0.088" />
+        app:layout_constraintVertical_bias="0.088"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="State"
+        android:hint="@string/state"
         android:inputType="textPersonName"
         android:minWidth="266dp"
         android:minHeight="49dp"
@@ -49,14 +50,15 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/city"
-        app:layout_constraintVertical_bias="0.047" />
+        app:layout_constraintVertical_bias="0.047"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Country"
+        android:hint="@string/country"
         android:inputType="textPersonName"
         android:minWidth="266dp"
         android:minHeight="49dp"
@@ -65,14 +67,15 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/state"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.077"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/zip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="ZIP Code"
+        android:hint="@string/zip_code"
         android:inputType="number"
         android:minWidth="266dp"
         android:minHeight="49dp"
@@ -81,7 +84,8 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/country"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.073"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/loc_btn"
@@ -89,7 +93,7 @@
         android:layout_height="wrap_content"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:text="Set Location"
+        android:text="@string/set_location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

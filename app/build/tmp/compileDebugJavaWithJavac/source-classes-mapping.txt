@@ -19,14 +19,13 @@ com/example/home_to_home/MainActivity.java
  com.example.home_to_home.MainActivity$3
 LoginAccount.java
  LoginAccount
-com/example/home_to_home/SetLocation.java
- com.example.home_to_home.SetLocation
- com.example.home_to_home.SetLocation$1
-com/example/home_to_home/BuildConfig.java
- com.example.home_to_home.BuildConfig
 com/example/home_to_home/LoginAccount.java
  com.example.home_to_home.LoginAccount
  com.example.home_to_home.LoginAccount$1
+com/example/home_to_home/BuildConfig.java
+ com.example.home_to_home.BuildConfig
 com/example/home_to_home/CreateAccount.java
  com.example.home_to_home.CreateAccount
  com.example.home_to_home.CreateAccount$1
+com/example/home_to_home/SetLocation.java
+ com.example.home_to_home.SetLocation

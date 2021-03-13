@@ -9,4 +9,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="set_location">Set Location</string>
+    <string name="set_your_location">Set your location</string>
+    <string name="zip_code">ZIP Code</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
 </resources>
