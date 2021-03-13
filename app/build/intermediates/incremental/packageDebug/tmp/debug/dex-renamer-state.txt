@@ -1,10 +1,10 @@
-#Sat Mar 13 13:22:24 EST 2021
-path.2=classes2.dex
-path.1=classes.dex
+#Sat Mar 13 13:36:38 EST 2021
+path.2=classes3.dex
+path.1=classes2.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/Users/kyleryan/hometohome/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
-base.1=/Users/kyleryan/hometohome/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
-base.0=/Users/kyleryan/hometohome/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.2=/Users/kyleryan/hometohome/app/build/intermediates/dex/debug/mergeDexDebug/classes3.dex
+base.1=/Users/kyleryan/hometohome/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.0=/Users/kyleryan/hometohome/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex

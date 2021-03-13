@@ -16,9 +16,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class CreateAccount extends AppCompatActivity {
 
     private EditText newUserEmail, newUserPassword, userName, userPhone;
@@ -92,10 +89,7 @@ public class CreateAccount extends AppCompatActivity {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         userID = user.getUid();
-        Map<String, Object> user_db = new HashMap<>();
-        user_db.put("email", email);
-        user_db.put("name", name);
-        user_db.put("phone", phone);
+        User user_db = new User(email, name, phone);
         db.collection("users").document(this.userID).set(user_db);
 
 

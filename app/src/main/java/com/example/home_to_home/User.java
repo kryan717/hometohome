@@ -5,23 +5,25 @@ import java.util.List;
 
 public class User  {
     private String username;
-    private String password;
-    private String name;
+    private String fullname;
     private String phonenumber;
     private int zipcode;
-    public List<Item> owneditems = new ArrayList<Item>();
-    private List<Item> boughtitems = new ArrayList<Item>();
+    public List<Item> owneditems;
+    private List<Item> boughtitems;
 
 
-    public User(String user, String name, String phone){
-        username = user;
-        name = name;
+    public User(String email, String name, String phone){
+        username = email;
+        fullname = name;
         phonenumber = phone;
+        zipcode = 00000;
+        owneditems = new ArrayList<Item>();
+        boughtitems = new ArrayList<Item>();
     }
     public User(){ }
 
     public String getName() {
-        return name;
+        return fullname;
     }
 
     public String getUsername() {
@@ -30,6 +32,11 @@ public class User  {
     public String getPhoneNumber(){
         return phonenumber;
     }
+
+    public void setZipcode(int zipcode){
+        this.zipcode = zipcode;
+    }
+
     public List<Item> getItems(String A){
         List<Item> items = new ArrayList<Item>();
         if(A=="Owned") {
