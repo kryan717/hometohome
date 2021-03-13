@@ -1630,6 +1630,7 @@ id listingsTest
 id loc_btn
 id loc_title
 id login_btn
+id logout_btn
 id masked
 id message
 id middle

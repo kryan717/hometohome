@@ -1,5 +1,6 @@
 package com.example.home_to_home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -43,5 +44,9 @@ public class SetLocation extends AppCompatActivity {
 
 
         db.collection("users").document(this.userID).update("zipcode", zipcode_db);
+
+        Intent nextActivity = new Intent(SetLocation.this, MainActivity.class);
+        startActivity(nextActivity);
+
     }
 }

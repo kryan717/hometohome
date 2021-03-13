@@ -44,7 +44,7 @@ public class LoginAccount extends AppCompatActivity {
 
         super.onStart();
         if (mAuth.getCurrentUser() != null) {
-            Intent nextActivity = new Intent(LoginAccount.this, SetLocation.class);
+            Intent nextActivity = new Intent(LoginAccount.this, MainActivity.class);
             startActivity(nextActivity);
         }
     }
