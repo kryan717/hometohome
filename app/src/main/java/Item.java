@@ -1,3 +1,5 @@
+package com.example.home_to_home;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +13,7 @@ public class Item {
         quantity=count;
         cost = suggestion;
         name = label;
-        private List<User> Queue = new ArrayList<User>;
+         List<User> Queue = new ArrayList<User>;
     }
     public Item(){ }
 
@@ -31,7 +33,7 @@ public class Item {
         this.quantity = quantity;
     }
 
-    public void setCost(int cost) {
+    public void setCost(String cost) {
         this.cost = cost;
     }
 
@@ -54,7 +56,7 @@ public class Item {
             Queue.remove(users);
         }
     }
-    public void removeFromQueue(user){
+    public void removeFromQueue(User user){
         Queue.remove(user);
     }
 
@@ -63,4 +65,3 @@ public class Item {
     }
 
 }
-
