@@ -8,9 +8,15 @@
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/res" />
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8f6da53f8601c0b0ad135bf04e1fd79/coordinatorlayout-1.1.0/res" />
+>>>>>>> origin/alant
     </CLASSES>
     <JAVADOC />
     <SOURCES>

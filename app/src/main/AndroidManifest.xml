@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hometohome">
-        <activity android:name=".SetLocation"></activity>
-        <activity android:name=".CreateAccount" />
-        <activity android:name=".MainActivity">
+<<<<<<< HEAD
+        <activity android:name="SetLocation"></activity>
+        <activity android:name="CreateAccount" />
+=======
+        <activity android:name="testqueued"></activity>
+        <activity android:name="details" />
+        <activity android:name="listings" />
+>>>>>>> origin/alant
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

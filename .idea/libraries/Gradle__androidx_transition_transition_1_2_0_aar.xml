@@ -8,8 +8,13 @@
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/res" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/jars/classes.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/AndroidManifest.xml" />
+>>>>>>> origin/alant
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c939c9d1cce5aa2f18956c8b9d20ad18/transition-1.2.0/res" />
     </CLASSES>
     <JAVADOC />
