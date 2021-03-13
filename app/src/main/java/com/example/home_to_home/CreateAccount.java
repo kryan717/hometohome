@@ -1,5 +1,6 @@
 package com.example.home_to_home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -78,7 +79,8 @@ public class CreateAccount extends AppCompatActivity {
                             Log.e("MyTag", task.getException().toString());
                         } else {
                             addFireBaseUser(email, name, phone);
-                            // TODO: // move to next place
+                            Intent nextActivity = new Intent(CreateAccount.this, SetLocation.class);
+                            startActivity(nextActivity);
                         }
                     }
                 });
