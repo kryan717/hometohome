@@ -34,7 +34,6 @@ public class LoginAccount extends AppCompatActivity {
         userEmail = (EditText) findViewById(R.id.email);
         userPassword = (EditText) findViewById(R.id.password);
 
-
         mAuth = FirebaseAuth.getInstance();
 
     }
@@ -50,8 +49,8 @@ public class LoginAccount extends AppCompatActivity {
     }
 
     public void onClickLogin(View view) {
-        email = userEmail.getText().toString().trim();
-        final String password = userPassword.getText().toString().trim();
+        email = userEmail.getText().toString();
+        final String password = userPassword.getText().toString();
 
         // todo: add data validation
 
@@ -65,7 +64,6 @@ public class LoginAccount extends AppCompatActivity {
                         } else {
                             Intent intent = new Intent(LoginAccount.this, MainActivity.class);
                             startActivity(intent);
-                            finish();
                         }
                     }
                 });
