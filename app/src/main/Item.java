@@ -15,7 +15,7 @@ public class Item {
     }
     public Item(){ }
 
-    public int getCost() {
+    public String getCost() {
         return cost;
     }
 
