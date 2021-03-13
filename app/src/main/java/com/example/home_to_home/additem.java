@@ -1,5 +1,6 @@
 package com.example.home_to_home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -44,11 +45,15 @@ public class additem extends AppCompatActivity {
         data.put("description", itemDesc);
 
 
-
         db.collection("users").document(this.userID).collection("items").add(data);
 
         finish();
         startActivity(getIntent());
 
+    }
+
+    public void onGoBack(View view){
+        Intent nextActivity = new Intent(additem.this, MainActivity.class);
+        startActivity(nextActivity);
     }
 }
