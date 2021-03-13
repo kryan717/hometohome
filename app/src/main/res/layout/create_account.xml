@@ -6,69 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".CreateAccount">
 
-    <TextView
+    <EditText
         android:id="@+id/input_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|left"
+        android:ems="10"
         android:hint="Full Name"
+        android:inputType="textPersonName"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.112" />
 
-    <TextView
+    <EditText
         android:id="@+id/input_contact_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|left"
+        android:layout_marginTop="36dp"
+        android:ems="10"
         android:hint="Contact Number"
+        android:inputType="phone"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_name"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
+    <EditText
         android:id="@+id/input_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|left"
+        android:ems="10"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_contact_number"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.073" />
 
-    <TextView
+    <EditText
         android:id="@+id/input_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|left"
+        android:ems="10"
         android:hint="Password"
+        android:inputType="textPassword"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_email"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.097" />
 
     <CheckBox
         android:id="@+id/t_c_checkBox"
@@ -83,7 +84,7 @@
         app:layout_constraintHorizontal_bias="0.341"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_password"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.133" />
 
     <Button
         android:id="@+id/create_btn"
@@ -98,5 +99,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/t_c_checkBox"
         app:layout_constraintVertical_bias="0.107" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

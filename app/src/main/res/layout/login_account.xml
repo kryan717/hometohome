@@ -5,70 +5,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <EditText
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center|left"
+        android:ems="10"
         android:hint="Full Name"
+        android:inputType="textPersonName"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.123" />
 
-    <TextView
+    <EditText
         android:id="@+id/contact_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|left"
+        android:ems="10"
         android:hint="Contact Number"
+        android:inputType="phone"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.076" />
 
-    <TextView
+    <EditText
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|left"
+        android:ems="10"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contact_number"
-        app:layout_constraintVertical_bias="0.069" />
+        app:layout_constraintVertical_bias="0.086" />
 
-    <TextView
+    <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|left"
+        android:ems="10"
         android:hint="Password"
+        android:inputType="textPassword"
         android:minWidth="266dp"
         android:minHeight="49dp"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.109" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <Button
         android:id="@+id/login_btn"
@@ -80,7 +79,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.195" />
+        app:layout_constraintVertical_bias="0.122" />
 
     <Button
         android:id="@+id/create_acc_btn"
@@ -93,4 +92,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_btn"
         app:layout_constraintVertical_bias="0.2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
