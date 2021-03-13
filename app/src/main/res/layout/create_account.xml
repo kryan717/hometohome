@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="CreateAccount">
+    tools:context=".CreateAccount">
 
     <EditText
         android:id="@+id/input_name"
@@ -71,34 +71,19 @@
         app:layout_constraintTop_toBottomOf="@+id/input_email"
         app:layout_constraintVertical_bias="0.097" />
 
-    <CheckBox
-        android:id="@+id/t_c_checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minWidth="200dp"
-        android:minHeight="48dp"
-        android:text="Terms and Conditions"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.341"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_password"
-        app:layout_constraintVertical_bias="0.133" />
-
     <Button
         android:id="@+id/create_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
         android:minWidth="266dp"
         android:minHeight="49dp"
+        android:onClick="createAccount"
         android:text="Create Account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/t_c_checkBox"
-        app:layout_constraintVertical_bias="0.107" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
