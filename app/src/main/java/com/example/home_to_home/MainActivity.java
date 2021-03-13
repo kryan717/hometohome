@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button b1;
     private Button b2;
     private Button b3;
+    private Button b4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         b1 = (Button) findViewById(R.id.listingsTest);
         b2 = (Button) findViewById(R.id.detailsTest);
         b3 = (Button) findViewById(R.id.queueTest);
+        b4 = (Button) findViewById(R.id.addItem);
 
         b1.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -43,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
                 openQueued();
             }
         });
+
+        b4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openAdd();
+            }
+        });
     }
 
     public void onLogout(View view) {
@@ -60,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openQueued(){
         Intent i1 = new Intent(this, testqueued.class);
+        startActivity(i1);
+    }
+    public void openAdd(){
+        Intent i1 = new Intent(this, additem.class);
         startActivity(i1);
     }
 }
