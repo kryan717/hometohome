@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hometohome">
 
-        <activity android:name=".CreateAccount">
+        <activity android:name=".LoginAccount">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
                     <category android:name="android.intent.category.LAUNCHER" />
                 </intent-filter>
         </activity>
+        <activity android:name=".CreateAccount" />
         <activity android:name=".SetLocation" />
+        <activity android:name=".MainActivity" />
 
 
     </application>

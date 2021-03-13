@@ -26,6 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="713512fb-0a19-43ea-9110-ebbf86e119c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
@@ -38,6 +39,8 @@
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/home_to_home/CreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/home_to_home/CreateAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/home_to_home/LoginAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/home_to_home/LoginAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login_account.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,29 +222,30 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="0" y="28" width="1757" height="1095" key="AndroidCreateResourceDirectoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1615629831391" />
-    <state x="735" y="354" key="AndroidCreateXmlResourceDialog" timestamp="1615627175597">
-      <screen x="35" y="25" width="1757" height="1095" />
+    <state x="0" y="28" width="1757" height="1095" key="AndroidCreateXmlResourceDialog" timestamp="1615663105964">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="735" y="354" key="AndroidCreateXmlResourceDialog/35.25.1757.1095@35.25.1757.1095" timestamp="1615627175597" />
-    <state width="0" height="0" key="GridCell.Tab.0.bottom" timestamp="1615660869954">
-      <screen x="35" y="25" width="1757" height="1095" />
+    <state x="0" y="28" width="1757" height="1095" key="AndroidCreateXmlResourceDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1615663105964" />
+    <state x="735" y="354" key="AndroidCreateXmlResourceDialog/35.25.1757.1095@35.25.1757.1095" timestamp="1615662031675" />
+    <state width="1750" height="308" key="GridCell.Tab.0.bottom" timestamp="1615662091512">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1615617343264" />
+    <state width="1750" height="308" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1615662091512" />
     <state width="0" height="0" key="GridCell.Tab.0.bottom/35.25.1757.1095@35.25.1757.1095" timestamp="1615660869954" />
-    <state width="0" height="0" key="GridCell.Tab.0.center" timestamp="1615660869953">
-      <screen x="35" y="25" width="1757" height="1095" />
+    <state width="1750" height="308" key="GridCell.Tab.0.center" timestamp="1615662091512">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1615617343261" />
+    <state width="1750" height="308" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1615662091512" />
     <state width="0" height="0" key="GridCell.Tab.0.center/35.25.1757.1095@35.25.1757.1095" timestamp="1615660869953" />
-    <state width="0" height="0" key="GridCell.Tab.0.left" timestamp="1615660869953">
-      <screen x="35" y="25" width="1757" height="1095" />
+    <state width="1750" height="308" key="GridCell.Tab.0.left" timestamp="1615662091512">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1615617343260" />
+    <state width="1750" height="308" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1615662091512" />
     <state width="0" height="0" key="GridCell.Tab.0.left/35.25.1757.1095@35.25.1757.1095" timestamp="1615660869953" />
-    <state width="0" height="0" key="GridCell.Tab.0.right" timestamp="1615660869954">
-      <screen x="35" y="25" width="1757" height="1095" />
+    <state width="1750" height="308" key="GridCell.Tab.0.right" timestamp="1615662091512">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1615617343262" />
+    <state width="1750" height="308" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1615662091512" />
     <state width="0" height="0" key="GridCell.Tab.0.right/35.25.1757.1095@35.25.1757.1095" timestamp="1615660869954" />
     <state x="0" y="28" width="1757" height="1095" key="IDE.errors.dialog" timestamp="1615653593863">
       <screen x="35" y="25" width="1757" height="1095" />

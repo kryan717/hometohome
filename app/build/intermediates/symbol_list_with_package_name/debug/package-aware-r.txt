@@ -1545,7 +1545,6 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
-id contact_number
 id container
 id content
 id contentPanel
@@ -1590,6 +1589,7 @@ id fitToContents
 id fixed
 id forever
 id fragment_container_view_tag
+id frameLayout
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1661,7 +1661,6 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
-id name
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_header_container
@@ -1964,6 +1963,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string city
 string clear_text_end_icon_content_description
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -1983,12 +1983,17 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string contact_number
+string country
+string create_account
 string default_web_client_id
+string email
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string first_fragment_label
+string full_name
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -2035,6 +2040,7 @@ string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string next
+string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2044,8 +2050,12 @@ string previous
 string project_id
 string search_menu_title
 string second_fragment_label
+string set_location
+string set_your_location
+string state
 string status_bar_notification_info_overflow
 string title_activity_details_page
+string zip_code
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
