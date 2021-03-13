@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "166637737798",
+    "project_id": "home-to-home-db107",
+    "storage_bucket": "home-to-home-db107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166637737798:android:bbc1b49784ee5dbd527747",
+        "android_client_info": {
+          "package_name": "com.example.home_to_home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166637737798-ab8ts6tur9vqee7hu05dhq833uivu8ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-ARLJb4u-VDZfNUcyNfw6G8sMPkZgFkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166637737798-ab8ts6tur9vqee7hu05dhq833uivu8ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
