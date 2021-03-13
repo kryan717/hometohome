@@ -1,10 +1,10 @@
+package com.example.home_to_home;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import com.example.home_to_home.R;
 
 import java.util.ArrayList;
 import java.util.List;
