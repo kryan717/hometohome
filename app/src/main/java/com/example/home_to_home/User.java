@@ -1,11 +1,14 @@
-public class User {
-    private final String username;
-    private final String password;
-    private final String firstname;
-    private final String lastname;
+import java.util.HashMap;
+
+public class User  {
+    private String username;
+    private String password;
+    private String firstname;
+    private String lastname;
     private String location;
-    private final int phonenumber;
-    private int[];
+    private int phonenumber;
+    private Item[] items;
+
 
     public User(String user,String pass,String first, String last,int phone){
         username = user;
@@ -34,5 +37,7 @@ public class User {
         return phonenumber;
     }
 
+    public void initializeitems(){
 
+    }
 }
