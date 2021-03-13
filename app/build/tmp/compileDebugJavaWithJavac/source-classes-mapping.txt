@@ -20,12 +20,18 @@ com/example/home_to_home/SetLocation.java
  com.example.home_to_home.SetLocation
 com/example/home_to_home/BuildConfig.java
  com.example.home_to_home.BuildConfig
+com/example/home_to_home/tradeInterface.java
+ com.example.home_to_home.tradeInterface
+com/example/home_to_home/trade_confirmation.java
+ com.example.home_to_home.trade_confirmation
 com/example/home_to_home/MainActivity.java
  com.example.home_to_home.MainActivity
  com.example.home_to_home.MainActivity$1
  com.example.home_to_home.MainActivity$2
  com.example.home_to_home.MainActivity$3
  com.example.home_to_home.MainActivity$4
+ com.example.home_to_home.MainActivity$5
+ com.example.home_to_home.MainActivity$6
 com/example/home_to_home/additem.java
  com.example.home_to_home.additem
 com/example/home_to_home/testqueued.java

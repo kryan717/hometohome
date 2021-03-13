@@ -20,7 +20,7 @@ public class listings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listings);
 
-        listView = (ListView)findViewById(R.id.tradeListView);
+        listView = (ListView)findViewById(R.id.listingsView);
         list.add("test");
         list.add("test");
         list.add("test");

@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     private Button b2;
     private Button b3;
     private Button b4;
+    private Button b5;
+    private Button b6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         b2 = (Button) findViewById(R.id.detailsTest);
         b3 = (Button) findViewById(R.id.queueTest);
         b4 = (Button) findViewById(R.id.addItem);
+        b5 = (Button) findViewById(R.id.tradeTest);
+        b6 = (Button) findViewById(R.id.tradeConfirm);
 
         b1.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -52,6 +56,16 @@ public class MainActivity extends AppCompatActivity {
                 openAdd();
             }
         });
+
+        b5.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) { openTrade(); }
+        });
+
+        b6.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) { openTradeConfirm(); }
+        });
     }
 
     public void onLogout(View view) {
@@ -73,6 +87,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openAdd(){
         Intent i1 = new Intent(this, additem.class);
+        startActivity(i1);
+    }
+    public void openTrade(){
+        Intent i1 = new Intent(this, tradeInterface.class);
+        startActivity(i1);
+    }
+    public void openTradeConfirm(){
+        Intent i1 = new Intent(this, trade_confirmation.class);
         startActivity(i1);
     }
 }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\3db90da3881798b27a4efd5da0f436cd\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\4c697d28d8330b9c438c6b6847fca9e7\navigation-ui-2.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\c81d39a79fa402136a8544175df432ff\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -64,25 +64,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\alana\.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\7bb25a4f6f211f0fd403b91af1b9692f\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\e53fbbcf78ffb18c7cd795b35d4efb56\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\10a3513949333938587db48c8411373d\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\c81d39a79fa402136a8544175df432ff\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\c81d39a79fa402136a8544175df432ff\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\alana\.gradle\caches\transforms-2\files-2.1\d7f60efe91dc50766e89efcb1d143ec0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -146,15 +146,15 @@ ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src
 	android:name
 		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:14:17-17:33
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:15:21-73
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:15:29-70
+		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:16:21-81
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:16:31-78
+		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.example.home_to_home.CreateAccount
 ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:19:9-51
 	android:name
@@ -167,6 +167,18 @@ activity#com.example.home_to_home.MainActivity
 ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:21:9-50
 	android:name
 		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.example.home_to_home.additem
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:22:9-45
+	android:name
+		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:22:19-42
+activity#com.example.home_to_home.tradeInterface
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:23:9-51
+	android:name
+		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:23:19-49
+activity#com.example.home_to_home.trade_confirmation
+ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:24:9-55
+	android:name
+		ADDED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml:24:19-53
 uses-sdk
 INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Users\AndroidStudioProjects\Home to Home Midday\hometohome\app\src\main\AndroidManifest.xml
