@@ -57,7 +57,7 @@ public class CreateAccount extends AppCompatActivity {
 
         super.onStart();
         if (mAuth.getCurrentUser() != null) {
-            Intent nextActivity = new Intent(CreateAccount.this, SetLocation.class);
+            Intent nextActivity = new Intent(CreateAccount.this, MainActivity.class);
             startActivity(nextActivity);        }
     }
 
