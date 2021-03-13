@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import com.example.home_to_home.R;
 
-public class SetLocation extends AppCompatActivity {
+public class gitSetLocation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
