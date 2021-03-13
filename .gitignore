@@ -38,3 +38,5 @@ ehthumbs.db
 Thumbs.db
 .idea/markdown-navigator.xml
 .idea/workspace.xml
+
+local.properties
