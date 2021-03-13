@@ -2,45 +2,61 @@ package com.example.home_to_home;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
-    ListView listView;
-    List list = new ArrayList();
-    ArrayAdapter adapter;
+    private Button b1;
+    private Button b2;
+    private Button b3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //listingsTest t = new listingsTest();
-        //t.lists();
-        /**listView = (ListView)findViewById(R.id.listView);
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("pizza");
-        list.add("test");
-        list.add("test");
-        list.add("test");
-        list.add("test");
+        b1 = (Button) findViewById(R.id.listingsTest);
+        b2 = (Button) findViewById(R.id.detailsTest);
+        b3 = (Button) findViewById(R.id.queueTest);
 
+        b1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openListings();
+            }
+        });
 
-        adapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);**/
+        b2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openDetails();
+            }
+        });
+
+        b3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openQueued();
+            }
+        });
+    }
+    public void openListings(){
+        Intent i1 = new Intent(this, listings.class);
+        startActivity(i1);
+    }
+    public void openDetails(){
+        Intent i1 = new Intent(this, details.class);
+        startActivity(i1);
+    }
+    public void openQueued(){
+        Intent i1 = new Intent(this, testqueued.class);
+        startActivity(i1);
     }
 }

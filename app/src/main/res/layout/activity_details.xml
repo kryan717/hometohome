@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/itemImage"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="302dp"
+        android:layout_height="306dp"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
         android:layout_marginTop="34dp"
@@ -30,6 +30,7 @@
         android:layout_marginLeft="77dp"
         android:layout_marginTop="64dp"
         android:text="itemName"
+        android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,26 +44,15 @@
         android:layout_marginTop="128dp"
         android:layout_marginEnd="159dp"
         android:layout_marginRight="159dp"
-        android:text="itemName"
+        android:text="itemVendor"
+        android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/itemLocation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginLeft="31dp"
-        android:layout_marginTop="64dp"
-        android:text="itemLocation"
-        android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/itemName"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/tradeButton2"
+        android:id="@+id/listingsReturn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="107dp"
@@ -88,7 +78,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="14dp"
         android:text="Trade"
-        app:layout_constraintBottom_toTopOf="@+id/tradeButton2"
+        app:layout_constraintBottom_toTopOf="@+id/listingsReturn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -100,6 +90,19 @@
         android:layout_marginRight="24dp"
         android:layout_marginBottom="14dp"
         android:text="Buy"
-        app:layout_constraintBottom_toTopOf="@+id/tradeButton2"
+        app:layout_constraintBottom_toTopOf="@+id/listingsReturn"
         app:layout_constraintEnd_toStartOf="@+id/tradeButton" />
+
+    <TextView
+        android:id="@+id/itemLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="64dp"
+        android:text="itemLocation"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/itemName"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
