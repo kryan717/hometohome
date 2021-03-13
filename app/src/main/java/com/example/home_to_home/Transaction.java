@@ -1,11 +1,14 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.List;
 
 public class Transaction {
-    public HashMap<User,Item> items = new HashMap<User,Item>;
     private int time;
     private int date;
     private String Offer;
-    public HashMap<Integer,User> queue = new HashMap<Integer,User>;
+    public HashMap<Integer,List<Item>> catalogue = new HashMap<Integer,Item>;
+    public List<Item> Products = new ArrayList<Item>;
     public Transaction(int time,int date,String Offer){
         this.time = time;
         this.date = date;
@@ -19,8 +22,23 @@ public class Transaction {
     }
     public String getOffer(){
         return Offer;
-    }
-    public void buy(User A, Item B, User C){
 
     }
+    public void addItems(User a){
+        int zipcode = a.getZipcode();
+         List<Item> userproducts = a.getItems();
+         for(Item items: userproducts) {
+             Products.add(items);
+         }
+         catalogue.put(zipcode,Products);
+    }
+    public List<Item> findProducts(User b){
+        int zipcode = b.getZipcode();
+        List<Item> products = catalogue.get(zipcode);
+        return products;
+    }
+
+
+
+
 }

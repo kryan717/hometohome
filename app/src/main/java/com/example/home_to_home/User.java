@@ -1,13 +1,15 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class User  {
     private String username;
     private String password;
     private String firstname;
     private String lastname;
-    private String location;
     private int phonenumber;
-    private Item[] items;
+    private int zipcode;
+    public List<Item> owneditems = new ArrayList<Item>();
 
 
     public User(String user,String pass,String first, String last,int phone){
@@ -17,7 +19,6 @@ public class User  {
         lastname = last;
         phonenumber = phone;
     }
-
     public String getFirstname() {
         return firstname;
     }
@@ -27,17 +28,18 @@ public class User  {
     public String getUsername() {
         return username;
     }
-    public String getLocation(){
-        return location;
-    }
-    public void setLocation(String location){
-        this.location = location;
-    }
     public int getPhoneNumber(){
         return phonenumber;
     }
-
-    public void initializeitems(){
-
+    public List getItems(){
+        return owneditems;
     }
+    public void additem(Item A){
+            owneditems.add(A);
+    }
+
+    public int getZipcode() {
+        return zipcode;
+    }
+
 }
