@@ -20,7 +20,8 @@
         <activity android:name=".SetLocation" />
         <activity android:name=".MainActivity" />
         <activity android:name=".additem" />
-
+        <activity android:name=".tradeInterface"/>
+        <activity android:name=".trade_confirmation"/>
 
 
     </application>
