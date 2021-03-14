@@ -97,6 +97,7 @@ public class listings extends AppCompatActivity  {
 //                        count = count + 1;
 //                    }
 //                }
+
                 listView = (ListView)findViewById(R.id.tradeListView);
                 adapter = new ArrayAdapter(listings.this, android.R.layout.simple_list_item_1, test_list);
                 listView.setAdapter(adapter);
