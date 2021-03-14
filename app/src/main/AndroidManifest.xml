@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.home_to_home">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/home2homeicon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/home2homeicon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hometohome">
-        <activity android:name=".listings_attempt"></activity>
-        <activity android:name=".LoginAccount">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".LoginAccount">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
         </activity>
         <activity android:name=".CreateAccount" />
         <activity android:name=".SetLocation" />
         <activity android:name=".MainActivity" />
         <activity android:name=".additem" />
-        <activity android:name=".details" />
-        <activity android:name=".listings"
-            tools:ignore="DuplicateActivity" />
+        <activity android:name= ".listings" />
+        <activity android:name=".details"/>
+        <activity android:name=".testqueued"/>
+
+
+
     </application>
 
 </manifest>
