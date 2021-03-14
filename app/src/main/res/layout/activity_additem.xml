@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".additem">
+    tools:context=".additem"
+    tools:ignore="MissingClass">
 
     <EditText
         android:id="@+id/setDesc"
