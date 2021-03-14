@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class additem extends AppCompatActivity {
 
-    EditText editItemName, editDescription;
+    EditText editItemName;
     Button add;
 
     @Override
@@ -17,7 +17,6 @@ public class additem extends AppCompatActivity {
         setContentView(R.layout.activity_additem);
 
         editItemName = (EditText)findViewById(R.id.setItem);
-        editDescription = (EditText)findViewById(R.id.setDesc);
 
         add = (Button)findViewById(R.id.addItem);
 

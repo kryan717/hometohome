@@ -1535,7 +1535,6 @@ id center
 id center_horizontal
 id center_vertical
 id chains
-id checkBox
 id checkbox
 id checked
 id chip
@@ -1619,7 +1618,6 @@ id itemImage
 id itemInfo
 id itemLocation
 id itemName
-id itemQuantity
 id itemVendor
 id item_touch_helper_previous_elevation
 id labeled
@@ -1692,6 +1690,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id priceInput
 id progress_circular
 id progress_horizontal
 id queueNumber
@@ -1724,7 +1723,6 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
-id setDesc
 id setItem
 id shortcut
 id showCustom
@@ -1786,6 +1784,7 @@ id top
 id topPanel
 id touch_outside
 id tradeButton
+id tradeCheck
 id tradeConfirm
 id tradeListView
 id tradeTest
