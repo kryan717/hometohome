@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.home_to_home">
 
     <application
@@ -10,16 +11,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hometohome">
 
-        <activity android:name=".LoginAccount">
+        <activity android:name=".LoginAccount"
+            tools:ignore="Instantiatable">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
                     <category android:name="android.intent.category.LAUNCHER" />
                 </intent-filter>
         </activity>
-        <activity android:name=".CreateAccount" />
-        <activity android:name=".SetLocation" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".additem" />
+        <activity android:name=".CreateAccount"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".SetLocation"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".MainActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".additem"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".listings"
+            tools:ignore="Instantiatable" />
+
 
 
 
