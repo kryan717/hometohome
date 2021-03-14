@@ -1619,6 +1619,7 @@ id itemImage
 id itemInfo
 id itemLocation
 id itemName
+id itemQuantity
 id itemVendor
 id item_touch_helper_previous_elevation
 id labeled
