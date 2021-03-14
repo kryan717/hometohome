@@ -91,15 +91,16 @@ public class listings extends AppCompatActivity  {
                 for (Map<String, Object> map : test_list) {
                     for (Map.Entry<String, Object> entry : map.entrySet()) {
                         String key = entry.getKey();
-                        String value = (String) entry.getValue();
-                        test_list2[count] = key + value;
-                        Log.i("TESTDATA", test_list2[count]);
+                        //String value = (String) entry.getValue();
+                        test_list2[count] = key;
+                        Log.d("TESTDATA", test_list2[count]);
                         count = count + 1;
                     }
                 }
-                listView = (ListView)findViewById(R.id.tradeListView);
-                adapter = new ArrayAdapter(listings.this, android.R.layout.simple_list_item_1, test_list2);
+                listView = (ListView)findViewById(R.id.ListView);
+                adapter = new ArrayAdapter(listings.this, android.R.layout.simple_list_item_1, test_list);
                 listView.setAdapter(adapter);
+
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener()
                 {
                     @Override
