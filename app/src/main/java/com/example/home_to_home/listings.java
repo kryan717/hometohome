@@ -57,11 +57,11 @@ public class listings extends AppCompatActivity  {
 
         name = (EditText)findViewById(R.id.searchName);
 
-
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 String address = name.getText().toString().trim();
+
 
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -86,6 +86,7 @@ public class listings extends AppCompatActivity  {
                                 }
                             }
                         });
+<<<<<<< HEAD
 //                test_list2 = new String[test_list.size()];
 //                int count = 0;
 //                for (Map<String, Object> map : test_list) {
@@ -119,6 +120,40 @@ public class listings extends AppCompatActivity  {
         });
         //Query query = data.collection("words").whereEqualTo("zipcode",address);
         //data1 = FirebaseAuth.getInstance();
+=======
+               test_list2 = new String[test_list.size()];
+                int count = 0;
+                for (Map<String, Object> map : test_list) {
+                    for (Map.Entry<String, Object> entry : map.entrySet()) {
+                        String key = entry.getKey();
+                        String value = (String) entry.getValue();
+                        test_list2[count] = key + value;
+                        Log.i("TESTDATA", test_list2[count]);
+                        count = count + 1;
+                    }
+                }
+                listView = (ListView)findViewById(R.id.tradeListView);
+                adapter = new ArrayAdapter(listings.this, android.R.layout.simple_list_item_1, test_list2);
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener()
+                {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapter, View v, int position,
+                                            long arg3)
+                    {
+                        product=test_list2[position];
+                        Intent intent = new Intent(listings.this,details.class);
+                        /*intent.putExtra("Item",label.get(position));
+                        intent.putExtra("owner",A.getName());
+                        intent.putExtra("email",A.getUsername());
+                        intent.putExtra("Zipcode",address);*/
+                    }
+                });
+            }
+        });
+                //Query query = data.collection("words").whereEqualTo("zipcode",address);
+                //data1 = FirebaseAuth.getInstance();
+>>>>>>> 0acbf5c94ad645bdefcec13477728270b9bd2fde
                 /*String UserID = data1.getCurrentUser().getUid();
                 user = data.collection("name").document(UserID).toString();*/
                 /*data = FirebaseFirestore.getInstance();
@@ -166,7 +201,11 @@ public class listings extends AppCompatActivity  {
                                     } */
                                         /*A = new User(document.get("email").toString(),
                                                 document.get("name").toString(), document.get("phoneNumber").toString());*/
+<<<<<<< HEAD
         //items.add(document.get("items").toString());
+=======
+                                        //items.add(document.get("items").toString());
+>>>>>>> 0acbf5c94ad645bdefcec13477728270b9bd2fde
                                       /* A = document.toObject(User.class);
                                          items.addAll(A.getItems("owned"));
                                          for(Item item:items){
@@ -174,11 +213,19 @@ public class listings extends AppCompatActivity  {
                                          }*/                                          /*A = new User(document.get("email").toString(),
                                                 document.get("name").toString(), document.get("phoneNumber").toString());
                                         items.add(document.get("items").toString());*/
+<<<<<<< HEAD
         //}
         //});
 
         //}
         //});
+=======
+                                    //}
+                                //});
+
+                            //}
+                        //});
+>>>>>>> 0acbf5c94ad645bdefcec13477728270b9bd2fde
 
 
 
