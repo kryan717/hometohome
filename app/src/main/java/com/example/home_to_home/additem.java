@@ -27,7 +27,7 @@ public class additem extends AppCompatActivity {
         setContentView(R.layout.activity_additem);
 
         editItemName = (EditText)findViewById(R.id.setItem);
-        editDescription = (EditText)findViewById(R.id.setDesc);
+        editDescription = (EditText)findViewById(R.id.priceInput);
 
     }
 
